@@ -1,0 +1,17 @@
+@import "variables";
+
+body{
+  padding: 50px;
+
+  .App {
+    //width: 80%;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;;
+    align-content: center;
+  }
+
+}
+

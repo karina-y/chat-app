@@ -1,0 +1,15 @@
+@import "../stylesheets/variables";
+
+.thread-card {
+  padding: 20px;
+  border-bottom: solid 1px $med-gray;
+
+  &:hover {
+    background: $light-gray;
+    cursor: pointer;
+  }
+
+  &.active {
+    background: $success-light;
+  }
+}
